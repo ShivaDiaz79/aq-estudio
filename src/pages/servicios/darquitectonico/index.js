@@ -1,10 +1,11 @@
 import Layout from "../../../../components/Layout";
+import ArchitecturalDesignServices from "./components/ArchitecturalDesignServices";
 
 const index = () => {
   return (
     <Layout>
-      <div className="bg-pink-900 min-h-screen  text-center text-white">
-        AQ Pagina en Desarrollo
+      <div >
+        <ArchitecturalDesignServices/>
       </div>
     </Layout>
   );

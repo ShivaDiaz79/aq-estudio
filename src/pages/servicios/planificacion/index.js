@@ -1,10 +1,11 @@
 import Layout from "../../../../components/Layout";
+import ProjectPlanning from "./components/ProjectPlanning";
 
 const index = () => {
   return (
     <Layout>
-      <div className="bg-pink-900 min-h-screen  text-center text-white">
-        AQ Pagina en Desarrollo
+      <div>
+        <ProjectPlanning/>
       </div>
     </Layout>
   );

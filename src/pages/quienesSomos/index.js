@@ -1,12 +1,20 @@
 import Layout from "../../../components/Layout";
-const index = () => {
+import AboutUs from "./components/AboutUs";
+import ImageTextSection from "./components/ImageTextSection";
+
+
+const Index = () => {
   return (
     <Layout>
-      <div className="bg-pink-900 min-h-screen  text-center text-white">
-        AQ Pagina en Desarrollo
-      </div>
+      
+        <div className="bg-red-800">
+        <AboutUs/>
+      <ImageTextSection/>
+        </div>
+       
+      
     </Layout>
   );
 };
 
-export default index;
+export default Index;

@@ -1,10 +1,13 @@
 import Layout from "../../../components/Layout";
+import StepsSection from "./components/StepsSection";
 
 const index = () => {
   return (
     <Layout>
-      <div className="bg-pink-900 min-h-screen  text-center text-white">
-        AQ Pagina en Desarrollo
+      <div className="min-h-screen  text-center text-white">
+         <h1>TRABAJOS</h1>
+         <StepsSection/>
+
       </div>
     </Layout>
   );

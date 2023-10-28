@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/gsap": "^3.0.0",
     "autoprefixer": "^10.4.14",
+    "draggable": "^4.2.0",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.5.0",
+    "gsap": "^3.12.2",
     "next": "13.4.13",
     "postcss": "^8.4.27",
     "react": "18.2.0",
